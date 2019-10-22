@@ -1,0 +1,4 @@
+Exercitiul 1)
+
+a) implementati ierarhia de clase din imaginea atasata. Nu am mai pus la metode constructorii, getterii, setterii si toString. Voi decideti unde e cazul.
+b) creati in metoda main o cafea care contine 1 unitate zahar alb, 2 unitati zahar brun si 3 unitati de lapte, cu procentaj de grasime 1.5%. Afisati-o.
