@@ -5,9 +5,9 @@ import java.util.Set;
 
 public class Carte {
 
-    String nume;
-    String autor;
-    double pret;
+    static String nume;
+    static String autor;
+    static double pret;
     Gen gen;
 
     public Carte(String nume, String autor, double pret, Gen gen) {
@@ -26,5 +26,11 @@ public class Carte {
                 '}';
     }
 
-
+    @Override
+    public boolean equals(Object obj) {
+        if(nume.equals(nume) && autor.equals(autor)) {
+            return true;
+        }else
+            return false;
+    }
 }
