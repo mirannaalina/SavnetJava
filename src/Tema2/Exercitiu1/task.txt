@@ -1,0 +1,9 @@
+1) Creati o aplicatie care modeleaza o lista de cumparaturi.
+a) Lista va contine minim 10 obiecte de tip Achizitie, care au ca atribute un pret per unitate si o cantitate, si, in plus,
+o metoda care calculeaza si returneaza pretul total (cantitate*pret)
+b) Obiectele Achizitie, la randul lor, pot fi de mai multe tipuri: Aliment (cu atributul dataDeExpirare - ca sa nu ne complicam,
+sa presupunem ca ne intereseaza doar ziua din luna curenta, deci poate fi un numar intreg de la 1 la 31) sau AparatElectrocasnic (cu atributul garantie, de tip int - ex: 2 ani)
+c) Sortati lista crescator, folosind un comparator, pe baza pretului total al obiectelor, si afisati-o.
+d) Extindeti functionalitatea comparatorului de la punctul c) astfel: daca ambele obiecte pe care le comparam sunt de tip Aliment,
+le vom compara pe baza dateiDeExpirare, tot crescator. Daca ambele obiecte sunt de tip AparatElectrocasnic, le vom compara crescator pe baza garantiei.
+ Daca nu ne aflam in niciunul din cazurile prezentate la acest punct, vom compara cele 2 obiecte ca la punctul c)
