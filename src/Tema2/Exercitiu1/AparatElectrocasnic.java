@@ -15,6 +15,6 @@ public class AparatElectrocasnic extends Achizitie {
 
     @Override
     public String toString() {
-        return "pret "+ getPret() + " cantitate " + getCantitate() + " garantie" + getGarantie();
+        return "pret "+ getPret() + " cantitate " + getCantitate() + " garantie " + getGarantie();
     }
 }

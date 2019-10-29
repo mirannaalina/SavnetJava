@@ -15,7 +15,7 @@ public class Aliment extends Achizitie {
 
     @Override
     public String toString() {
-        return "pret "+ getPret() + " cantitate " + getCantitate() + " data Expirare" + getDataDeExpirare();
+        return "pret "+ getPret() + " cantitate " + getCantitate() + " data Expirare " + getDataDeExpirare();
     }
 
 }

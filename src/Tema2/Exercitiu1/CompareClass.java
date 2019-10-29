@@ -10,14 +10,14 @@ public class CompareClass implements Comparator<Achizitie> {
 
     @Override
     public int compare(Achizitie a, Achizitie b) {
-      //  if(a.equals(Aliment) && b.equals(Aliment)){
-      //      return a.CalculateTotalPrice() - b.CalculateTotalPrice();
-      //  }else if(a.equals(AparatElectrocasnic) && b.equals(AparatElectrocasnic)){
-      //       return  a.CalculateTotalPrice() - b.CalculateTotalPrice();
-      //   }else {
+        if((a instanceof Aliment) && (b instanceof Aliment)){
+            return a.CalculateTotalPrice() - b.CalculateTotalPrice();
+        }else if((a instanceof AparatElectrocasnic) && (b instanceof AparatElectrocasnic)){
+             return  a.CalculateTotalPrice() - b.CalculateTotalPrice();
+        }else {
 
             return a.CalculateTotalPrice() - b.CalculateTotalPrice();
 
-      //  }
+        }
     }
 }
