@@ -9,6 +9,8 @@ import static Project.Utilizator.adaugareUtilizatori;
 import static Project.Utilizator.stergereUtilizatori;
 
 
+
+
 public class MetodeOptiuni {
 
     public static void afiseazaOptiuniCase1(){
@@ -32,6 +34,7 @@ public class MetodeOptiuni {
         }
 
     }
+
     public static void afiseazaOptiuniCase2(){
         //management optiuni
 
